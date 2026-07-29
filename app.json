@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Fomo Emo",
+    "slug": "fomo-emo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "fomoemo",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.fomoemo",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Fomo Emo uses the microphone only when you choose to record a short voice sample for tone reflection."
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F7F3EA"
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Fomo Emo to record a short voice sample for tone reflection."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
