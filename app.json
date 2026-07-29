@@ -27,7 +27,8 @@
         {
           "microphonePermission": "Allow Fomo Emo to record a short voice sample for tone reflection."
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
